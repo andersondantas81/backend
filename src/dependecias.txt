@@ -1,0 +1,14 @@
+yarn add express
+yarn add nodemon -D
+yarn add mongoose
+yarn add multer
+yarn add socket.io
+//modulo que determina quem vai poder acessar aplicação. S enão definir o backend não consegue acessa estando em dominio diferente.
+git init
+git remote add origin https://github.com/diego3g/backend.git
+cria arquivo .gitignore e .gitkeep 
+git add
+git commit -m "Estrutura back-end"
+git add .
+git commit -m " Adiciona Procfile do Heroku"
+git push origin master  
