@@ -19,7 +19,8 @@ io.on("connection", socket => {
 mongoose.connect(
   "mongodb+srv://omnistack:omnistack@cluster0-7zpqg.mongodb.net/omnistack6?retryWrites=true&w=majority",
   {
-    useNewUrlParser: true
+    useNewUrlParser: true,
+    useUnifiedTopology: true
   }
 );
 
