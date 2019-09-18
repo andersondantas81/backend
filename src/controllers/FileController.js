@@ -1,5 +1,5 @@
-import File from "../models/File";
-import Box from "../models/Box";
+const File = require("../models/File");
+const Box = require("../models/Box");
 
 class FileController {
   async store(req, res) {
