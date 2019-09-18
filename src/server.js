@@ -4,8 +4,12 @@ const path = require("path");
 const cors = require("cors");
 
 const app = express();
+
+var corsOptions = {
+  origin: "*"
+};
 //todo mundo pode acessa a aplicação.
-app.use(cors());
+app.use(cors(corsOptions));
 
 const server = require("http").Server(app);
 const io = require("socket.io")(server);
