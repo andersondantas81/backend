@@ -1,7 +1,7 @@
-import express from "express";
-import mongoose from "mongoose";
-import path from "path";
-import cors from "cors";
+const express = require("express");
+const mongoose = require("mongoose");
+const path = require("path");
+const cors = require("cors");
 
 const app = express();
 //todo mundo pode acessa a aplicação.
